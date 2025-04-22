@@ -1,12 +1,3 @@
 mountpoints:
   /: https://drive.google.com/drive/folders/1KIQa-ohfdtjnd0MkFr3vDsvr4XTQFQS7
-  /mnt/drive:
-        type: gcsfuse
-        options:
-        bucket: "drive.google.com/drive/folders/1KIQa-ohfdtjnd0MkFr3vDsvr4XTQFQS7"
-        mountpoint: "/mnt/drive"
-        allow_other: true
-        uid: 1000
-        gid: 1000
-        file_mode: 0777
-        dir_mode: 0777
+  /footer: https://docs.google.com/document/d/1UkTgWDVASymN_5GkLovbs5FRfA8mGNpt
